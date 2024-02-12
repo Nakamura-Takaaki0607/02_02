@@ -6,8 +6,6 @@ public:
 	T1 height;
 	T2 width;
 
-	//Box(T1 height, T2 width) : height(height), width(width) {}
-
 	T1 Min(T1 height, T2 width) {
 		if (height <= width)
 		{
